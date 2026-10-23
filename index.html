@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <form>
+        <p>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required>
+        </p>
+
+        <p>
+            <label for="matric">Matric No:</label><br>
+            <input type="text" id="matric" name="matric" required>
+        </p>
+
+        <p>
+            <label for="department">Department:</label><br>
+            <input type="text" id="department" name="department" required>
+        </p>
+
+        <p>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required>
+        </p>
+
+        <p>
+            <label for="phone">Phone No:</label><br>
+            <input type="tel" id="phone" name="phone" required>
+        </p>
+
+        <p>
+            Gender:<br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+        </p>
+
+        <p>
+            <label for="programme">Programme:</label><br>
+            <select id="programme" name="programme" required>
+                <option value="">Select Programme</option>
+                <option value="Full time">Full time</option>
+                <option value="Wednesday">Wednesday</option>
+            </select>
+        </p>
+
+        <p>
+            <button type="submit">Submit</button>
+        </p>
+    </form>
+
+</body>
+</html>
